@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Stranica za prijavu ucenika</title>
+        <link rel="stylesheet" type= "text/css" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="loginbox">
+            <img src="images/login.png" class="avatar">
+            <p>Registracija ucenika:</p>
+
+            <form method="get" action="registracija_ucenik.html">
+                <input type="submit" name="reg" value="Registruj ucenika" />
+            </form>
+            <br>
+            <br>
+            <form method="get" action="IspisServletUcenik">
+                <p>Pregled registrovanih ucenika:</p>   
+                <input type="submit" value="Pregled"/>
+            </form>
+            <br>
+            <br>
+            <p>Ocjeni ucenika:</p>
+            <form method="get" action="ocjeni_ucenika.jsp">
+                <input type="submit" name="" value="Ocjeni ucenika" />
+            </form>
+            <br>
+            <br>
+            <p>Pregled ocjena ucenika:</p>
+            <form method="get" action="prikaz_ocjena_ucenika.jsp">
+                <input type="submit" name="" value="Pregledaj ocjene" />
+            </form>
+        </div>
+
+    </body>
+</html>
